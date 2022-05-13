@@ -50,8 +50,9 @@
 
 <div class="relative">
 
-    <div class="flex space-x-0 relative rounded-md ml-48 mt-6 w-3/4 h-64 bg-slate-400 opacity-60">
-        <img class="mt-0" src="img/deadlineImg.png">
+    <div class=" flex space-x-0 relative rounded-md ml-48 mt-6 w-3/4 h-64 bg-slate-400 opacity-60 bg-opacity-60 bg-clip-padding"
+         style="backdrop-filter: blur(2px);">
+        <img class="-mt-4" src="img/deadlineImg.png">
         <div class="absolute space-y-2 top-0 left-8 pt-44 text-green-200">
             <h2 class="ml-16 text-3xl ">Voting </h2>
             <h2 class="ml-16 text-3xl ">deadline </h2>
@@ -79,43 +80,84 @@
 
 
 <div class="relative flex items-center justify-center space-x-20 mt-36">
-    <img class="absolute w-30 left-1 bottom-44 " src="img/cardLogo.png">
+    <!--    <img class="absolute w-30 left-1 bottom-44 " src="img/cardLogo.png">-->
     <div class="w-52 h-[24rem] rounded-xl
         mt-12
         outline outline-offset-1 outline-green-300
         bg-opacity-60 bg-clip-padding"
-         style="backdrop-filter: blur(20px);">
+         style="backdrop-filter: blur(5px);">
+
+        <img class="absolute w-25 right-24 bottom-64 mb-6" src="img/cardLogo.png">
 
         <h3 class="m-6 text-2xl">TOTAL VOTES</h3>
-        <div class=" w-30 h-16 m-6 mt-2 bg-green-300">
+        <div class=" w-30 h-16 m-4 mt-16 bg-green-300">
             <h3 class="text-4xl flex justify-center pt-3">15609</h3>
         </div>
-        <div class="w-28 h-10 m-10 mt-16  rounded-xl
+        <div class="w-28 h-10 mt-30 ml-10 m-16 rounded-xl
         bg-gradient-to-b from-green-300 to-green-100">
             <h3 class="text-black text-xl flex justify-center pt-1">Vote-></h3>
         </div>
     </div>
+
     <div class="relative w-52 h-80 rounded-xl">
-
         <img class="absolute" src="img/pic1Card2.png">
-        <div class="absolute w-48 h-16
-            bottom-0 ml-2 mt-10 bg-opacity-60
-            bg-clip-padding bg-slate-50 rounded-xl"
-             style="backdrop-filter: blur(2px);">
-        </div>
         <img src="img/card2Pic.png">
-
+        <div class=" w-48 h-16
+             -mt-20 ml-2 bg-opacity-60
+            bg-clip-padding bg-slate-50 rounded-xl"
+             style="backdrop-filter: blur(0px);">
+            <div class="text-black  ">
+                <h3 class="text-xs ml-14 pt-2">Proposition 1</h3>
+                <h3 class="text-xl font-medium ml-10">21% of votes</h3>
+            </div>
+        </div>
     </div>
+
     <div class="relative w-52 h-80 rounded-xl ">
         <img class="absolute" src="img/pic2Card3.png">
         <img src="img/card3Pic.png">
+        <div class=" w-48 h-16
+             -mt-20 ml-2 bg-opacity-60
+            bg-clip-padding bg-slate-50 rounded-xl"
+             style="backdrop-filter: blur(0px);">
+            <div class="text-black  ">
+                <h3 class="text-xs ml-14 pt-2">Proposition 1</h3>
+                <h3 class="text-xl font-medium ml-10">44% of votes</h3>
+            </div>
+        </div>
     </div>
+
     <div class="relative w-52 h-80 rounded-xl ">
         <img class="absolute" src="img/pic3Card4.png">
         <img src="img/card4Pic.png">
+        <div class=" w-48 h-16
+             -mt-20 ml-2 bg-opacity-60
+            bg-clip-padding bg-slate-50 rounded-xl"
+             style="backdrop-filter: blur(0px);">
+            <div class="text-black  ">
+                <h3 class="text-xs ml-14 pt-2">Proposition 1</h3>
+                <h3 class="text-xl font-medium ml-10">35% of votes</h3>
+            </div>
+        </div>
     </div>
 </div>
 
+
+<footer class="relative mt-24 w-full h-14 bg-opacity-60 bg-slate-500">
+    <div class="text-xs font-thin ml-10 pt-2">
+        <h3 class="">Copyright © 2022 EVI</h3>
+        <h3 class="">All rights reserved | Privacy</h3>
+    </div>
+    <div class="absolute flex space-x-4 right-8 top-2 ">
+        <img src="img/twitter.png">
+        <img class="w-10 h-11 " src="img/telegrame.png">
+        <img class="w-8 h-9 mt-1" src="img/tictok.png">
+        <img class="w-8 h-9 mt-1" src="img/instagram.png">
+    </div>
+    <div>
+
+    </div>
+</footer>
 
 </body>
 </html>

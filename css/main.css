@@ -712,6 +712,62 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 1rem;
 }
 
+.left-20{
+  left: 5rem;
+}
+
+.right-20{
+  right: 5rem;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.-bottom-4{
+  bottom: -1rem;
+}
+
+.-bottom-8{
+  bottom: -2rem;
+}
+
+.top-32{
+  top: 8rem;
+}
+
+.left-2{
+  left: 0.5rem;
+}
+
+.left-40{
+  left: 10rem;
+}
+
+.left-60{
+  left: 15rem;
+}
+
+.left-96{
+  left: 24rem;
+}
+
+.-left-96{
+  left: -24rem;
+}
+
+.-left-20{
+  left: -5rem;
+}
+
+.-left-0{
+  left: -0px;
+}
+
 .m-6{
   margin: 1.5rem;
 }
@@ -833,6 +889,50 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -1rem;
 }
 
+.mr-10{
+  margin-right: 2.5rem;
+}
+
+.mr-20{
+  margin-right: 5rem;
+}
+
+.-mr-10{
+  margin-right: -2.5rem;
+}
+
+.-ml-6{
+  margin-left: -1.5rem;
+}
+
+.-ml-10{
+  margin-left: -2.5rem;
+}
+
+.-ml-20{
+  margin-left: -5rem;
+}
+
+.ml-20{
+  margin-left: 5rem;
+}
+
+.ml-40{
+  margin-left: 10rem;
+}
+
+.ml-52{
+  margin-left: 13rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -923,6 +1023,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-44{
   width: 11rem;
+}
+
+.w-2\/4{
+  width: 50%;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
+.w-4\/5{
+  width: 80%;
+}
+
+.w-60{
+  width: 15rem;
+}
+
+.w-72{
+  width: 18rem;
+}
+
+.w-80{
+  width: 20rem;
 }
 
 .-rotate-90{
@@ -1116,6 +1240,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 9rem;
 }
 
+.pr-20{
+  padding-right: 5rem;
+}
+
+.pr-32{
+  padding-right: 8rem;
+}
+
+.pr-36{
+  padding-right: 9rem;
+}
+
+.pr-8{
+  padding-right: 2rem;
+}
+
+.pr-2{
+  padding-right: 0.5rem;
+}
+
+.pr-0{
+  padding-right: 0px;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .font-Inter{
   font-family: Inter, sans-serif;
 }
@@ -1275,4 +1439,214 @@ Ensure the default browser behavior of the `hidden` attribute.
 .backdrop-filter{
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+@media (min-width: 640px){
+  .sm\:top-52{
+    top: 13rem;
+  }
+
+  .sm\:top-44{
+    top: 11rem;
+  }
+
+  .sm\:left-4{
+    left: 1rem;
+  }
+
+  .sm\:left-6{
+    left: 1.5rem;
+  }
+
+  .sm\:right-4{
+    right: 1rem;
+  }
+
+  .sm\:left-8{
+    left: 2rem;
+  }
+
+  .sm\:left-12{
+    left: 3rem;
+  }
+
+  .sm\:right-12{
+    right: 3rem;
+  }
+
+  .sm\:right-8{
+    right: 2rem;
+  }
+
+  .sm\:left-2{
+    left: 0.5rem;
+  }
+
+  .sm\:left-10{
+    left: 2.5rem;
+  }
+
+  .sm\:left-0{
+    left: 0px;
+  }
+
+  .sm\:-left-4{
+    left: -1rem;
+  }
+
+  .sm\:-left-8{
+    left: -2rem;
+  }
+
+  .sm\:right-16{
+    right: 4rem;
+  }
+
+  .sm\:right-28{
+    right: 7rem;
+  }
+
+  .sm\:right-44{
+    right: 11rem;
+  }
+
+  .sm\:right-52{
+    right: 13rem;
+  }
+
+  .sm\:right-72{
+    right: 18rem;
+  }
+
+  .sm\:right-80{
+    right: 20rem;
+  }
+
+  .sm\:right-10{
+    right: 2.5rem;
+  }
+
+  .sm\:-right-6{
+    right: -1.5rem;
+  }
+
+  .sm\:-right-4{
+    right: -1rem;
+  }
+
+  .sm\:right-2{
+    right: 0.5rem;
+  }
+
+  .sm\:right-3{
+    right: 0.75rem;
+  }
+
+  .sm\:right-1{
+    right: 0.25rem;
+  }
+
+  .sm\:right-0{
+    right: 0px;
+  }
+
+  .sm\:-right-0{
+    right: -0px;
+  }
+
+  .sm\:-right-2{
+    right: -0.5rem;
+  }
+
+  .sm\:left-32{
+    left: 8rem;
+  }
+
+  .sm\:left-44{
+    left: 11rem;
+  }
+
+  .sm\:left-96{
+    left: 24rem;
+  }
+
+  .sm\:left-full{
+    left: 100%;
+  }
+
+  .sm\:left-20{
+    left: 5rem;
+  }
+
+  .sm\:left-40{
+    left: 10rem;
+  }
+
+  .sm\:left-60{
+    left: 15rem;
+  }
+
+  .sm\:bottom-6{
+    bottom: 1.5rem;
+  }
+
+  .sm\:bottom-8{
+    bottom: 2rem;
+  }
+
+  .sm\:bottom-10{
+    bottom: 2.5rem;
+  }
+
+  .sm\:ml-10{
+    margin-left: 2.5rem;
+  }
+
+  .sm\:ml-20{
+    margin-left: 5rem;
+  }
+
+  .sm\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
+  .sm\:mr-10{
+    margin-right: 2.5rem;
+  }
+
+  .sm\:mr-20{
+    margin-right: 5rem;
+  }
+
+  .sm\:-mr-10{
+    margin-right: -2.5rem;
+  }
+
+  .sm\:-mr-20{
+    margin-right: -5rem;
+  }
+
+  .sm\:space-x-10 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:space-x-8 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:pr-20{
+    padding-right: 5rem;
+  }
+
+  .sm\:pr-44{
+    padding-right: 11rem;
+  }
+
+  .sm\:pr-48{
+    padding-right: 12rem;
+  }
 }
